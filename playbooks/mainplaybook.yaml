@@ -1,0 +1,11 @@
+- name: Установка всех необходимых пакетов
+  hosts: localhost
+  roles:
+    - git
+    - java
+    - nginx
+    - postgres
+    - mvn
+    - npm
+    - angular
+    - docker
